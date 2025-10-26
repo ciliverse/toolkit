@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(while read dir)",
+      "Bash(do if [ -f \"$dir/README.md\" ])",
+      "Bash(then echo \"$dir: HAS README\")",
+      "Bash(else echo \"$dir: NO README\")",
+      "Bash(fi)",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
